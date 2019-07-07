@@ -12,22 +12,28 @@
  Text Domain:  twentyfifteenchild
 */
 
+:root {
+  --bg-color: black;
+  --txt-color: white;
+  --highlight-color: green;
+}
+
 /*a:visited{color: white;}*/
 a:link{}
 a:focus, a:active{
 	font-weight: bold;
-	outline: 1px solid green;
+	outline: 1px solid var(--highlight-color);
 }
-a:hover{color: green;}
+a:hover{color: var(--highlight-color);}
 
 body, textarea{
-	background-color: black;
+	background-color: var(--bg-color);
 }
 
 ::-moz-selection {
-  background-color: green;
+  background-color: var(--highlight-color);
 }
 
 ::selection {
-  background-color: green;
+  background-color: var(--highlight-color);
 }
