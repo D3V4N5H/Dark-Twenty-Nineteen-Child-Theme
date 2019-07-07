@@ -23,6 +23,7 @@ a:link{}
 a:focus, a:active{
 	font-weight: bold;
 	outline: 1px solid var(--highlight-color);
+	color: var(--highlight-color) !important;
 }
 a:hover{color: var(--highlight-color);}
 
