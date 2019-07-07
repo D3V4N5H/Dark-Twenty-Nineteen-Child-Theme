@@ -19,3 +19,7 @@ a:focus, a:active{
 	outline: 1px solid green;
 }
 a:hover{color: green;}
+
+body, textarea{
+	background-color: black;
+}
