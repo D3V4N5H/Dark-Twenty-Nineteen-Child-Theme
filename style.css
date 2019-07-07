@@ -12,3 +12,10 @@
  Text Domain:  twentyfifteenchild
 */
 
+/*a:visited{color: white;}*/
+a:link{}
+a:focus, a:active{
+	font-weight: bold;
+	outline: 1px solid green;
+}
+a:hover{color: green;}
