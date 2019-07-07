@@ -23,3 +23,11 @@ a:hover{color: green;}
 body, textarea{
 	background-color: black;
 }
+
+::-moz-selection {
+  background-color: green;
+}
+
+::selection {
+  background-color: green;
+}
